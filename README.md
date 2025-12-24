@@ -4,3 +4,5 @@ A simple interactive web demonstration showing how JavaScript can dynamically ch
 
 ## Description
 This project features a light bulb that can be "turned on" and "turned off" using two buttons. It serves as a fundamental exercise in DOM (Document Object Model) manipulation.
+
+## 🚀 How It Works
