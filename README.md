@@ -9,3 +9,5 @@ This project features a light bulb that can be "turned on" and "turned off" usin
 When a user clicks one of the buttons, a JavaScript function triggers a change to the `<img>` tag's `src` attribute:
 * **Turn On:** Changes the image source to a "light bulb on" graphic.
 * **Turn Off:** Changes the image source to a "light bulb off" graphic.
+
+## 🛠️ Code Logic
