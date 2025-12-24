@@ -12,3 +12,10 @@ When a user clicks one of the buttons, a JavaScript function triggers a change t
 
 ## Code Logic
 The core functionality is achieved using the following logic:
+
+```javascript
+// Turning the light ON
+document.getElementById('myImage').src = 'pic_bulbon.gif';
+
+// Turning the light OFF
+document.getElementById('myImage').src = 'pic_bulboff.gif';
