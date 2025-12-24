@@ -11,7 +11,7 @@ When a user clicks one of the buttons, a JavaScript function triggers a change t
 * **Turn Off:** Changes the image source to a "light bulb off" graphic.
 
 ## Code Logic
-The core functionality is achieved using the following logic:
+The core functionality is achieved using the following logic that are as follows:
 
 ```javascript
 // Turning the light ON
