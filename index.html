@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Light Bulb</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="social-links">
+    <a href="https://github.com/Prakharcodes433" target="_blank"><i class="fa-brands fa-github" id="git"></i></a>
+    <a href="https://www.instagram.com/prakharr._patel/" target="_blank"><i class="fa-brands fa-instagram" id="ig"></i></a>
+    <a href="https://www.reddit.com/user/PrakharPatel669/" target="_blank"><i class="fa-brands fa-reddit-alien" id="reddit"></i></a>
+  </div>
+  
+  <h2>What Can JavaScript Do?</h2>
+
+  <p>JavaScript can change HTML attribute values.</p>
+
+  <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+
+  <div class="bulb-container">
+    <button onclick="lightBulbOn()">
+    Turn On The Light
+    </button>
+
+    <img src="./pic_bulboff.gif" alt="pic_bulboff" id="myimage">
+
+    <button onclick="lightBulbOff()">
+    Turn Off The Light
+    </button>
+  </div>
+
+    <p id="footer">This Shows That How We Can Use <br> JavaScript To Change HTML Attribute Values.</p>
+    
+  <script src="script.js"></script>
+</body>
+</html>

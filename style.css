@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bulb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  gap: 30px;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+img {
+  width: 140px;
+  height: auto;
+}
+
+h2{
+  font-size: 40px;
+}
+
+p{
+  font-size: 20px;
+}
+
+#footer{
+  margin-top: 100px;
+}
+
+
+.social-links {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+
+.social-links a {
+  color: #000000;
+  font-size: 30px; 
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-links  #git:hover {
+  color: #37cf71;
+  transform: translateY(-3px);
+}
+
+.social-links #ig:hover {
+  color: rgb(255, 0, 208);
+  transform: translateY(-3px);
+}
+
+.social-links #reddit:hover {
+  color: rgb(255, 132, 0);
+  transform: translateY(-3px);
+}
